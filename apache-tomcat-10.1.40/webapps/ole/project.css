@@ -1,0 +1,162 @@
+.title
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color:yellow;
+    text-shadow: 2px 2px 5px brown;
+    letter-spacing: 5px;
+}
+
+.subtitle
+{
+    font-family: 'Arial Narrow';
+    font-size: 30px;
+    color:orange;
+    letter-spacing: 5px;
+}
+
+.smalltitle
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:orange;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+.bigbox
+{
+    border:solid 10px darkolivegreen;
+    box-shadow: 2px 2px 10px black;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.header
+{
+    background-image: url("images/header.png");
+    font-family: Arial;
+    font-size: 35px;
+    opacity: 0.5;
+    text-align: right;
+}
+
+.headertext
+{
+    color:yellow;
+    text-shadow: 2px 2px 5px black;
+    opacity: 1.0;
+}
+
+.smallbox
+{
+    box-shadow: 2px 2px 10px slateblue;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.simplebox
+{
+    border:1px solid silver;
+    padding: 10px;
+}
+
+body
+{
+    background-image: linear-gradient(gold,darkgreen,black);
+    margin: 0px;
+}
+
+input[type="text"],input[type="password"]
+{
+    border: solid 1px lightgrey;
+    padding: 2px 10px;
+}
+
+.btn
+{
+    background-image: linear-gradient(#00cccc,#003380);
+    color:white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 10px;
+    border: solid 2px white;
+    box-shadow: 1px 1px 3px lightgrey;
+    text-decoration: none;
+    cursor: pointer;
+    margin:0px 5px ;
+}
+.btn:hover
+{
+    box-shadow: 1px 1px 3px black;
+}
+
+.grid
+{
+    color:lightslategrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.menubar
+{
+    background-color: royalblue;
+    color:white;
+    padding: 4px 15px;
+    border:solid 2px #00cccc;
+    cursor: pointer;
+    margin:10px 5px ;
+
+}
+
+.menubar:hover
+{
+background-color: #003380;    
+box-shadow: 1px 1px 3px black;
+}
+
+.menulink
+{
+  color:aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px black;
+}
+
+.menulink:hover
+{
+    color:white;
+}
+
+.photo
+{
+    border:15px solid darkolivegreen;
+    box-shadow: 2px 2px 5px black;
+}
+
+hr{
+    border: 5px solid olive;
+    opacity: 0.3;
+}
+
+.roundbtn
+{
+    background-image: linear-gradient(white,steelblue);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    font-family: Arial;
+    padding: 5px 10px;
+}
+
+.roundbtn:hover
+{
+    box-shadow: 1px 1px 3px black;
+    background-image: linear-gradient(yellow,green);
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
